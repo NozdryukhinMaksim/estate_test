@@ -14,7 +14,24 @@ Template: understrap
 
 .estate-list .carousel img{
     object-fit: cover;
-    max-width: 800px;
+    max-width: 500px;
     max-height: 250px;
     height: auto;
+}
+.meta-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@media (max-width: 1050px) {
+.estate-list li {
+    display: flex;
+    flex-direction: column;
+}
+.estate-list .carousel img {
+    object-fit: cover;
+    max-width: -webkit-fill-available;
+    max-height: 250px;
+    height: auto;
+}
 }
