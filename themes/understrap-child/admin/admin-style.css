@@ -1,0 +1,24 @@
+#estate_meta_box .inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#estate_meta_box .inside p {
+    display: grid;
+    padding: 10px;
+    justify-items: stretch;
+}
+#estate_meta_box .inside p label {
+    color: #3c434a;
+    font-weight: 600;
+    padding: 0 0 10px;
+}
+
+@media (max-width: 1050px) {
+    #estate_meta_box .inside {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+ul.gallery-thumbnails img {
+    max-width: 200px;
+}

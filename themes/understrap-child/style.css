@@ -1,0 +1,20 @@
+/*
+Theme Name:     UnderStrap Child Theme
+Template: understrap
+*/
+
+.estate-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.estate-list .carousel img{
+    object-fit: cover;
+    max-width: 800px;
+    max-height: 250px;
+    height: auto;
+}
